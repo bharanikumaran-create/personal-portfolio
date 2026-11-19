@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharani | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Bharani.</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="btn" style="padding: 5px 10px; font-size: 0.9rem;">Dark Mode</button>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a Computer Science Engineering student passionate about embedded systems, web development, and automotive modifications. I love building things from scratch, whether it's digital logic circuits or performance tuning.</p>
+        
+        <!-- Contact Details -->
+        <div style="margin-top: 20px; font-size: 1.1rem;">
+            <p><strong>Email:</strong> yours.bharanikumaranp3934@gmail.com</p>
+            <p><strong>Phone:</strong> +91 99942 70842</p>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Python Utility Script</h3>
+                <p>A command-line application developed in Python to automate basic file organization and handle data processing tasks efficiently.</p>
+            </div>
+            <div class="project-card">
+                <h3>Digital Logic Sensor Display</h3>
+                <p>An embedded systems project utilizing an Arduino Uno and 7-segment displays to process and output real-time sensor data from a breadboard circuit.</p>
+            </div>
+            <div class="project-card">
+                <h3>Responsive Web Portfolio</h3>
+                <p>A front-end web application built using HTML, modern CSS layouts, and JavaScript to showcase academic coursework and technical skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="phone number" id="phone" placeholder="Your phone number" required>
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
